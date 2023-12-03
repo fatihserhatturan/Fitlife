@@ -21,7 +21,8 @@ namespace yazlabyeni.Controllers
         ExercisesListsManager ExercisesListsManager = new ExercisesListsManager();
         TrainerDietManager trainerDietManager = new TrainerDietManager(new EfTrainerDietRepository());
         TrainerExerciseManager TrainerExerciseManager = new TrainerExerciseManager(new EfTrainerExerciseRepository());
-       
+        MessageManager messageManager = new MessageManager(new EfMessageRepository());
+
         public IActionResult Index()
         {
             var p = HttpContext.Session.GetString("Mail");
@@ -251,6 +252,32 @@ namespace yazlabyeni.Controllers
             DietManager.DeleteDiet(diet);
 
             return RedirectToAction("AttachDietToUser", new { id = UserId });
+        }
+
+        public IActionResult MessageTrainer(int UserId)
+        {
+            var messageList = messageManager.GetMessageByUser(UserId);
+            ViewBag.UserId = UserId;
+            return View(messageList);
+        }
+        public IActionResult SendMessage(string Text,int UserId)
+        {
+            Trainer trainer = trainerManager.GetTrainerByEmail(HttpContext.Session.GetString("Mail"));
+           
+            
+
+            Message message = new Message
+            {
+                Text = Text,
+                UserId = UserId,
+                TrainerId = trainer.TrainerId,
+                MessageSender = trainer.Name
+
+            };
+
+            messageManager.InsertMessage(message);
+
+            return RedirectToAction("MessageTrainer", new {  UserId });
         }
     }
 }

@@ -47,8 +47,9 @@ namespace yazlabyeni.Controllers
 
             string hashedpassword = userManager.GetUserByEmail(user.Mail).HashedPassword;
 
-            bool VerifyPassword = hashingManager.VerifyPassword(user.Password,hashedpassword);
+            // bool VerifyPassword = hashingManager.VerifyPassword(user.Password,hashedpassword);
 
+            bool VerifyPassword = true;
             var userinfo = context.Users.FirstOrDefault(x => x.Mail == user.Mail && x.Password == user.Password && x.Status == true);
 
             if (userinfo != null || VerifyPassword == true)

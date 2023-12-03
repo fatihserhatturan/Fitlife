@@ -14,6 +14,8 @@ namespace EntityLayer.Concrete
 
         public string Text {  get; set; }
 
+        public string MessageSender { get; set; }
+
         public int UserId { get; set; }
 
         public int TrainerId { get; set; }

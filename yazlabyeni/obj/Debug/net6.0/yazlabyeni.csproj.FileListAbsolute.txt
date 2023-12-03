@@ -772,3 +772,5 @@ C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\bin\Debug\net6.0\Microsoft.AspNet.Id
 C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\bin\Debug\net6.0\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\bin\Debug\net6.0\Bogus.dll
+C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\bin\Debug\net6.0\libman.json
+C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\obj\Debug\net6.0\yazlabyeni.sourcelink.json

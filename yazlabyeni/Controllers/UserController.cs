@@ -7,7 +7,7 @@ using yazlabyeni.Models;
 
 namespace yazlabyeni.Controllers
 {
-    [Authorize(Roles = "User")]
+   // [Authorize(Roles = "User")]
     public class UserController : Controller
     {
         UserManager userManager = new UserManager();
@@ -16,6 +16,8 @@ namespace yazlabyeni.Controllers
         ExercisesListsManager exercisesListsManager = new ExercisesListsManager();
         DietManager dietManager = new DietManager(new EfDietRepository());
         DietListsManager dietListsManager = new DietListsManager();
+        MessageManager messageManager = new MessageManager(new EfMessageRepository());
+        UserTrainerManager UserTrainerManager = new UserTrainerManager(new EfUserTrainerRepository());
 
         public IActionResult Index()
         {
@@ -119,7 +121,7 @@ namespace yazlabyeni.Controllers
         {
             UserManager userManager = new UserManager();
             TrainerManager tm = new TrainerManager();
-            var p = HttpContext.Session.GetString("AuthorMail");
+            var p = HttpContext.Session.GetString("Mail");
             Trainer trainer = tm.GetTrainerByEmail(p);
             List<User> users = userManager.GetUsersByTrainerId(trainer.TrainerId);
             return View(users);
@@ -137,11 +139,39 @@ namespace yazlabyeni.Controllers
             UserInfosManager userInfosManager = new UserInfosManager();
 
             UserManager um = new UserManager();
-            var p = HttpContext.Session.GetString("AuthorMail");
+            var p = HttpContext.Session.GetString("Mail");
             User user = um.GetUserByEmail(p);
             UserInfo userInfo = userInfosManager.GetUserInfoByUserID(user.UserId);
             userInfosManager.Update(userInfo);
             return View(userInfo);
+        }
+
+        public IActionResult IndexMessage()
+        {
+
+            var messagelist = messageManager.GetMessageByUser(userManager.GetUserByEmail(HttpContext.Session.GetString("Mail")).UserId);
+
+
+            return View(messagelist);
+        }
+
+        public IActionResult SendMessage(string Text)
+        {
+            User user = userManager.GetUserByEmail(HttpContext.Session.GetString("Mail"));
+            var trainer = UserTrainerManager.GetUserTrainerByUser(user.UserId);
+
+            Message message = new Message
+            {
+                Text = Text,
+                UserId = user.UserId,
+                TrainerId = trainer.TrainerID,
+                MessageSender = user.Name
+
+            };
+
+            messageManager.InsertMessage(message);
+
+            return RedirectToAction("IndexMessage");
         }
     }
 }

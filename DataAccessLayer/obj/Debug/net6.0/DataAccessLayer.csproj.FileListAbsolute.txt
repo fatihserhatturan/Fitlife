@@ -32,3 +32,4 @@ C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\DataAccessLayer\obj\Debug\net
 C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
 C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
 C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\fatti\Desktop\Yazlab2.1\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.sourcelink.json

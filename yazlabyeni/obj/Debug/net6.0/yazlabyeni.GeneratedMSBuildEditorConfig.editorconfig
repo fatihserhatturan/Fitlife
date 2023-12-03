@@ -154,6 +154,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/MessageTrainer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxNZXNzYWdlVHJhaW5lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/TrainerDefaultDiets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyRGVmYXVsdERpZXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -172,6 +176,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/IndexMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleE1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/ListUsersByTrainerId.cshtml]

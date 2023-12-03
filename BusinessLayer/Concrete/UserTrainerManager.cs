@@ -23,6 +23,10 @@ namespace BusinessLayer.Concrete
         {
             return  UserTrainerDal.GetAll().Where(x=>x.TrainerID==id).ToList();
         }
+        public UserTrainer GetUserTrainerByUser(int id)
+        {
+            return UserTrainerDal.Find(x => x.UserID == id);
+        }
 
         public int InsertUserTrainer(UserTrainer userTrainer)
         {

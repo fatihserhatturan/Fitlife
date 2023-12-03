@@ -21,3 +21,4 @@ C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\EntityLayer\obj\Debug\net6.0\
 C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\Users\mssrm\OneDrive\Masaüstü\yazlab2\Yazlab2\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
 C:\Users\fatti\Desktop\Yazlab2.1\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\fatti\Desktop\Yazlab2.1\EntityLayer\obj\Debug\net6.0\EntityLayer.sourcelink.json

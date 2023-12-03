@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "MessageTrainer";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+@model IEnumerable<EntityLayer.Concrete.Message>
+
+@{
+
+    var gelenDeger = ViewBag.UserId; 
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">Danışanınız</h4>
+                </div>
+                <div class="card-body message-container">
+
+                    @foreach (var x in Model)
+                    {
+
+                        <div id="messageContainer">
+                            <div class="message-item">
+                                <strong>@x.MessageSender:</strong> @x.Text
+                            </div>
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0">Mesaj Gönder</h4>
+                </div>
+                <div class="card-body">
+
+                    <form asp-controller="Trainer" asp-action="SendMessage" method="post">
+                        <div class="form-group">
+                            <label for="messageInput">Mesajınız:</label>
+                            <textarea class="form-control" id="messageInput" name="Text" rows="3"></textarea>
+                        </div>
+                        <input type="hidden" name="UserId" value="@gelenDeger" />
+                        <button type="submit" class="btn btn-primary btn-block">Gönder</button>
+                    </form>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

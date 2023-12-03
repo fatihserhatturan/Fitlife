@@ -21,6 +21,7 @@
                         <th scope="col">E-Mail</th>
                         <th scope="col">Diyet</th>
                         <th scope="col">Egzersiz</th>
+                        <th scope="col">Mesaj</th>
                         <th scope="col">İşlem</th>
                     </tr>
                 </thead>
@@ -64,6 +65,14 @@
 
                             </td>
 
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/MessageTrainer" method="get">
+                                        <input type="hidden" name="UserId" value="@x.UserID" />
+                                        <button type="submit" class="btn btn-outline-success">Mesaj</button>
+                                    </form>
+
+                            </td>
 
                             <td>
                                 <div style="display: flex; gap: 8px;">
