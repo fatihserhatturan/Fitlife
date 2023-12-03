@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "TrainerDefaultDiets";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+
+@model IEnumerable<DietViewModel>;
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Durum</th>
+                        <th scope="col">Kahvaltı</th>
+                        <th scope="col">Öğle Yemeği</th>
+                        <th scope="col">Akşam Yemeği</th>
+                        <th scope="col">Günlük Kalori</th>
+                        <th scope="col">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+                            @if (x.IsInclude == true)
+                            {
+                                <td>Ekli</td>
+                            }
+                            @if (x.IsInclude == false)
+                            {
+                                <td>Ekli Değil</td>
+                            }
+
+                            <td>@x.DietView.Breakfast</td>
+                            <td>@x.DietView.Lunch</td>
+                            <td>@x.DietView.Dinner</td>
+                            <td>@x.DietView.DailyCalories</td>
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/DietStatusTrue" method="get">
+                                        <input type="hidden" name="Id" value="@x.DietView.DietListId" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                                    <form action="/Trainer/DietStatusFalse" method="get">
+                                        <input type="hidden" name="Id" value="@x.DietView.DietListId" />
+                                        <button type="submit" class="btn btn-outline-danger">Çıkar</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

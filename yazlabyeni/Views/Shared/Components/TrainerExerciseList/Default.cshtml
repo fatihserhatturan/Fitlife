@@ -1,0 +1,35 @@
+﻿@model IEnumerable<EntityLayer.Concrete.ExerciseList>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bootstrap Card Örneği</title>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            @foreach (var x in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://placekitten.com/300/200" class="card-img-top" alt="Kedi Resmi">
+                        <div class="card-body">
+                            <h5 class="card-title">@x.Name</h5>
+                            <p class="card-text">@x.Description.Substring(0, x.Description.Substring(0, 100).LastIndexOf(" ")) ... </p>
+                            <p class="card-text">Set Sayısı: @x.Set </p>
+                            <form action="/ExercisesLists/ExercisePage" method="get">
+                                <input type="hidden" name="ExerciseListId" value="@x.ExerciseListId"/>
+                                <input type="submit" class="btn btn-primary" value="Detaylı Görünüm">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</body>
+</html>

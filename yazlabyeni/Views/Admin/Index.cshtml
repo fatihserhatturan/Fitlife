@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+<div class="text-center mt-4">
+
+    <div class="d-flex justify-content-center">
+        <form action="/Admin/AddRandomUser" method="get">
+            <button type="submit" class="btn btn-primary custom-btn mr-2">
+                <i class="fas fa-user-plus mr-1"></i> Kullanıcı Ekle
+            </button>
+        </form>
+
+        <form action="/Admin/AddRandomTrainer" controller="Admin" method="get">
+            <button type="submit" class="btn btn-danger custom-btn">
+                <i class="fas fa-user-tie mr-1"></i> Antrenör Ekle
+            </button>
+        </form>
+    </div>
+
+</div>
+
+<style>
+    /* Özel buton stilini tanımlayın */
+    .custom-btn {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease; /* Hover efekti için geçiş tanımı */
+    }
+
+        .custom-btn:hover {
+            background-color: #555; /* Hover durumunda arka plan rengini değiştirin */
+            color: #fff; /* İsteğe bağlı olarak metin rengini değiştirin */
+        }
+
+        .custom-btn i {
+            font-size: 18px;
+        }
+</style>
+

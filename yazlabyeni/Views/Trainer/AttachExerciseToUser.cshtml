@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "AttachExerciseToUser";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+@model IEnumerable<EntityLayer.Concrete.TrainerExercise>
+@{
+    // ViewBag'den gelen değeri al
+    var gelenDeger = ViewBag.UserId; // "GelenDeger" burada örnek bir isimdir, gerçek ismi kullanmalısınız
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">İsim</th>
+                        <th scope="col">Hedef</th>
+                        <th scope="col">Açıklama</th>
+                        <th scope="col">Set</th>
+                        <th scope="col">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+
+
+                            <td>@x.ExerciseList.Name</td>
+                            <td>@x.ExerciseList.Target</td>
+                            <td>@x.ExerciseList.Description.Substring(0, x.ExerciseList.Description.Substring(0, 12).LastIndexOf(" ")) ... </td>
+                            <td>@x.ExerciseList.Set</td>
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/AddExerciseToUser" method="get">
+                                        <input type="hidden" name="ExerciseId" value="@x.ExerciseListId" />
+                                        <input type="hidden" name="UserId" value="@gelenDeger" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                                    <form action="/Trainer/DeleteExerciseToUser" method="get">
+                                        <input type="hidden" name="ExerciseId" value="@x.ExerciseListId" />
+                                        <input type="hidden" name="UserId" value="@gelenDeger" />
+                                        <button type="submit" class="btn btn-outline-danger">Çıkar</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

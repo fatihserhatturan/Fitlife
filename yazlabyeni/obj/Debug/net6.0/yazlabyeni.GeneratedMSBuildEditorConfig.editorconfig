@@ -1,0 +1,207 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = yazlabyeni
+build_property.RootNamespace = yazlabyeni
+build_property.ProjectDir = C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\fatti\Desktop\Yazlab2.1\yazlabyeni
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/AddDiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRGlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/AddExercise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRXhlcmNpc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/DietList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlldExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/ExerciseList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRXhlcmNpc2VMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/GetDiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0RGlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/GetExercise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0RXhlcmNpc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/TrainerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVHJhaW5lckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Admin/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/DietLists/DietPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldExpc3RzXERpZXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/DietLists/ListDiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldExpc3RzXExpc3REaWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/ExercisesLists/ExercisePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VzTGlzdHNcRXhlcmNpc2VQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/ExercisesLists/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhlcmNpc2VzTGlzdHNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Home/SiteSlide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaXRlU2xpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Home/TrainerList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFpbmVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Login/AdminLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Login/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Login/TrainerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVHJhaW5lckxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/Components/TrainerAbout/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJhaW5lckFib3V0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/Components/TrainerDietList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJhaW5lckRpZXRMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/Components/TrainerExerciseList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJhaW5lckV4ZXJjaXNlTGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/_TrainerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UcmFpbmVyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/AttachDietToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxBdHRhY2hEaWV0VG9Vc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/AttachExerciseToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxBdHRhY2hFeGVyY2lzZVRvVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/TrainerDefaultDiets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyRGVmYXVsdERpZXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/TrainerDefaultExercises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyRGVmYXVsdEV4ZXJjaXNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/TrainerPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Trainer/TrainerUserApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxUcmFpbmVyVXNlckFwcGxpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/ListUsersByTrainerId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMaXN0VXNlcnNCeVRyYWluZXJJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/UserDiet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/UserExercise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRXhlcmNpc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/UserMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyTWVzc2FnZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/User/UserProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatti/Desktop/Yazlab2.1/yazlabyeni/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xw8v10fbqu

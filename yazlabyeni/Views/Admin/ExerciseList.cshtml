@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "ExerciseList";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+@model IEnumerable<EntityLayer.Concrete.ExerciseList>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .table-container {
+            margin: 50px auto;
+            max-width: 1000px;
+        }
+
+            .table-container table {
+                width: 100%;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            .table-container th, .table-container td {
+                padding: 15px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .table-container th {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+            .table-container tbody tr:hover {
+                background-color: rgba(0, 0, 0, 0.075);
+            }
+
+        .btn-toggle {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Hedef</th>
+                    <th>İsim</th>
+                    <th>Açıklama</th>
+                    <th>Set</th>
+                    <th>Video Url</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var x in Model)
+                {
+
+                    <tr>
+                        <td>@x.ExerciseListId</td>
+                        <td>@x.Target</td>
+                        <td>@x.Name</td>
+                        <td>@x.Description.Substring(0, x.Description.Substring(0, 12).LastIndexOf(" "))</td>
+                        <td>@x.Set</td>
+                        <td>@x.ExerciseVideo</td>
+
+                        <td>
+                            <form asp-action="GetExercise" asp-controller="Admin" method="get">
+                                <input type="hidden" name="Id" value="@x.ExerciseListId" />
+                                <input type="submit" class="btn btn-warning" value="Detaylar">
+                            </form>
+
+                        </td>
+
+                    </tr>
+                }
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+

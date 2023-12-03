@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "GetDiet";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.DietList
+<h2>Edit Diet</h2>
+
+@using (Html.BeginForm("UpdateDiet", "Admin", FormMethod.Post)) // Change the action method to UpdateDiet
+{
+    @Html.HiddenFor(model => model.DietListId)
+
+    <div class="form-group">
+        <label for="Target">Target:</label>
+        <input type="text" class="form-control" id="Target" name="Target" value="@Model.Target">
+    </div>
+
+    <div class="form-group">
+        <label for="DailyCalories">Daily Calories:</label>
+        <input type="text" class="form-control" id="DailyCalories" name="DailyCalories" value="@Model.DailyCalories">
+    </div>
+
+    <div class="form-group">
+        <label for="Breakfast">Breakfast:</label>
+        <input type="text" class="form-control" id="Breakfast" name="Breakfast" value="@Model.Breakfast">
+    </div>
+
+    <div class="form-group">
+        <label for="Lunch">Lunch:</label>
+        <input type="text" class="form-control" id="Lunch" name="Lunch" value="@Model.Lunch">
+    </div>
+
+    <div class="form-group">
+        <label for="Dinner">Dinner:</label>
+        <input type="text" class="form-control" id="Dinner" name="Dinner" value="@Model.Dinner">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Diet</button>
+}
+
+

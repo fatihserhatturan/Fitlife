@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\yazlabyeni.bundle.scp.css",
+      "PackagePath": "staticwebassets\\yazlabyeni.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\0c9da3d0-dbb5-4587-b072-ee854a27fe13.JPEG",
+      "PackagePath": "staticwebassets\\Images\\0c9da3d0-dbb5-4587-b072-ee854a27fe13.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\22fbad9d-2f8e-4d4f-8cba-82e3406531c5.JPEG",
+      "PackagePath": "staticwebassets\\Images\\22fbad9d-2f8e-4d4f-8cba-82e3406531c5.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\285374d8-b913-48ff-8a2a-ded56199de8d.JPEG",
+      "PackagePath": "staticwebassets\\Images\\285374d8-b913-48ff-8a2a-ded56199de8d.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\4bbe0e22-0ce5-4dfc-bb39-0c882c381eef.JPEG",
+      "PackagePath": "staticwebassets\\Images\\4bbe0e22-0ce5-4dfc-bb39-0c882c381eef.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\4e46fce0-783a-4b54-a6e2-6a2280bf3f10.png",
+      "PackagePath": "staticwebassets\\Images\\4e46fce0-783a-4b54-a6e2-6a2280bf3f10.png"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\72ab6a76-97ae-4927-8efc-1fd87afe77fd.JPEG",
+      "PackagePath": "staticwebassets\\Images\\72ab6a76-97ae-4927-8efc-1fd87afe77fd.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\859f8a94-7464-449d-b766-a02a489da3a7.png",
+      "PackagePath": "staticwebassets\\Images\\859f8a94-7464-449d-b766-a02a489da3a7.png"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\9ba024a9-339d-450b-a1e4-c1ef222c19b5.JPEG",
+      "PackagePath": "staticwebassets\\Images\\9ba024a9-339d-450b-a1e4-c1ef222c19b5.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\d037a09f-a353-4a33-b08f-deb55815c552.jpeg",
+      "PackagePath": "staticwebassets\\Images\\d037a09f-a353-4a33-b08f-deb55815c552.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\d785881b-b508-43ca-9370-b73e418a39fe.JPEG",
+      "PackagePath": "staticwebassets\\Images\\d785881b-b508-43ca-9370-b73e418a39fe.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\db36237a-4308-4a7d-b315-9f7c7c742196.png",
+      "PackagePath": "staticwebassets\\Images\\db36237a-4308-4a7d-b315-9f7c7c742196.png"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\db8c3ba7-b88a-49e9-8617-f807abd698f7.png",
+      "PackagePath": "staticwebassets\\Images\\db8c3ba7-b88a-49e9-8617-f807abd698f7.png"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\fatrate.jpg",
+      "PackagePath": "staticwebassets\\Images\\fatrate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\fitnes-770x513.jpg",
+      "PackagePath": "staticwebassets\\Images\\fitnes-770x513.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\givencalories.jpg",
+      "PackagePath": "staticwebassets\\Images\\givencalories.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\hq720.jpg",
+      "PackagePath": "staticwebassets\\Images\\hq720.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\indir.jpeg",
+      "PackagePath": "staticwebassets\\Images\\indir.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\profile.jpg",
+      "PackagePath": "staticwebassets\\Images\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\train.jpg",
+      "PackagePath": "staticwebassets\\Images\\train.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\train1.jpg",
+      "PackagePath": "staticwebassets\\Images\\train1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\Images\\train2.jpg",
+      "PackagePath": "staticwebassets\\Images\\train2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatti\\Desktop\\Yazlab2.1\\yazlabyeni\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.yazlabyeni.props",
+      "PackagePath": "build\\yazlabyeni.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.yazlabyeni.props",
+      "PackagePath": "buildMultiTargeting\\yazlabyeni.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.yazlabyeni.props",
+      "PackagePath": "buildTransitive\\yazlabyeni.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.yazlabyeni.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

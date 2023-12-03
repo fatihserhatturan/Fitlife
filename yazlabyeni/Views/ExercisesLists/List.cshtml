@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using EntityLayer.Concrete;
+@model IEnumerable<EntityLayer.Concrete.ExerciseList>;
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <br />
+    <br />
+    <div class="card-container">
+        @foreach (var x in Model)
+        {
+            <div class="card">
+                <h1>@x.Name @x.Description @x.Set @x.Target</h1>
+                @*Listenenler içinden antrenörün seçtikleri sayfanın altında belirteceği danışana atanır.
+            Ayrıca kart olarak listelediğimiz düzenleme butonu ekleyip,düzenleyebiliriz.  *@
+            </div>
+
+        }
+    </div>
+</body>
+</html>
+

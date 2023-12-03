@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "TrainerPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model int
+
+@await Component.InvokeAsync("TrainerAbout",Model)
+
+</br>
+
+<div class="text-center">
+
+    <h2>Egzersiz Listesi</h2>
+</div>
+
+</br>
+
+@await Component.InvokeAsync("TrainerExerciseList")
+
+</br>
+
+<div class="text-center">
+
+    <h2>Diyet Listesi</h2>
+</div>
+
+</br>
+
+@await Component.InvokeAsync("TrainerDietList")
+
+</br>
+
+
+</br>
+@await Html.PartialAsync("_Footer","Shared")

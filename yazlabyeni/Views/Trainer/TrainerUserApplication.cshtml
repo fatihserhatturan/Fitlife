@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "TrainerUserApplication";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+
+
+@model IEnumerable<EntityLayer.Concrete.UserTrainer>;
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Durum</th>
+                        <th scope="col">Resim</th>
+                        <th scope="col">İsim</th>
+                        <th scope="col">Soy İsim</th>
+                        <th scope="col">E-Mail</th>
+                        <th scope="col">Diyet</th>
+                        <th scope="col">Egzersiz</th>
+                        <th scope="col">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+                            @if (x.Status == true)
+                            {
+                                <td>Ekli</td>
+                            }
+                            @if (x.Status == false)
+                            {
+                                <td>Ekli Değil</td>
+                            }
+
+                            <td>
+                                <div class="col-5 text-center">
+                                    <img src="/Images/@x.User.PhotoUrl" alt="" class="img-circle img-fluid" style="max-width: 50px; max-height: 50px;">
+                                </div>
+                            </td>
+                            <td>@x.User.Name</td>
+                            <td>@x.User.Surname</td>
+                            <td>@x.User.Mail</td>
+
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/AttachDietToUser" method="get">
+                                        <input type="hidden" name="Id" value="@x.UserID" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                            </td>
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/AttachExerciseToUser" method="get">
+                                        <input type="hidden" name="Id" value="@x.UserID" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                            </td>
+
+
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/UserApplicationStatusTrue" method="get">
+                                        <input type="hidden" name="Id" value="@x.UserTrainerID" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                                    <form action="/Trainer/UserApplicationStatusFalse" method="get">
+                                        <input type="hidden" name="Id" value="@x.UserTrainerID" />
+                                        <button type="submit" class="btn btn-outline-danger">Çıkar</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

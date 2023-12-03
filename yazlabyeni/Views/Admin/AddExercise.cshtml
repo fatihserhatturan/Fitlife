@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "AddExercise";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+
+
+<div class="container mt-4">
+    <h2>Egzersiz Ekle</h2>
+
+    <form asp-controller="Admin" asp-action="AddExercise" method="post">
+        <div class="card">
+            <div class="card-body">
+                <!-- Egzersiz İsmi -->
+                <div class="form-group">
+                    <label for="exerciseName">Egzersiz İsmi</label>
+                    <input type="text" class="form-control" id="exerciseName" name="Name" required>
+                </div>
+
+                <!-- Egzersiz Set Sayısı -->
+                <div class="form-group">
+                    <label for="setCount">Set Sayısı</label>
+                    <input type="number" class="form-control" id="setCount" name="Set" required>
+                </div>
+
+                <!-- Egzersiz Video URL'si -->
+                <div class="form-group">
+                    <label for="videoUrl">Video URL'si</label>
+                    <input type="url" class="form-control" id="videoUrl" name="ExerciseVideo" required>
+                </div>
+
+                <!-- Egzersiz Hedefi -->
+                <div class="form-group">
+                    <label for="exerciseGoal">Egzersiz Hedefi</label>
+                    <input type="text" class="form-control" id="exerciseGoal" name="Target" required>
+                </div>
+
+                <!-- Egzersiz Açıklaması -->
+                <div class="form-group">
+                    <label for="exerciseDescription">Egzersiz Açıklaması</label>
+                    <textarea class="form-control" id="exerciseDescription" name="Description" rows="3" required></textarea>
+                </div>
+
+                <!-- Gönder Butonu -->
+                <button type="submit" class="btn btn-primary">Egzersizi Ekle</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+

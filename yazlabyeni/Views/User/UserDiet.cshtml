@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewData["Title"] = "UserDiet";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.DietList;
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .diet-container {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .diet-item {
+        border: 1px solid #dee2e6;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+        .diet-item i {
+            margin-right: 10px;
+        }
+
+    h2 {
+        color: #007bff;
+    }
+</style>
+
+<div class="container diet-container">
+    <h2>Diyet Listesi</h2>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="diet-item">
+                <i class="fas fa-utensils fa-2x"></i>
+                <strong>Kahvaltı : @Model.Breakfast</strong>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="diet-item">
+                <i class="fas fa-utensils fa-2x"></i>
+                <strong>Öğle Yemeği : @Model.Lunch</strong>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="diet-item">
+                <i class="fas fa-utensils fa-2x"></i>
+                <strong>Akşam Yemeği : @Model.Dinner</strong>
+                <p></p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="diet-item">
+                <i class="fas fa-fire fa-2x"></i>
+                <strong>Günlük Kalori : @Model.DailyCalories</strong>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="diet-item">
+                <i class="fas fa-bullseye fa-2x"></i>
+                <strong>Diyet Hedefi : @Model.Target</strong>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<EntityLayer.Concrete.Trainer>
+<div class="full-width-container">
+@await Html.PartialAsync("SiteSlide")
+
+</br>
+
+<div class="text-center">
+   
+    <h2>Antrenörlerimiz</h2>
+</div>
+
+</br>
+
+@await Html.PartialAsync("TrainerList",Model)
+
+</br>
+
+    @await Html.PartialAsync("_Footer","Shared")
+</div>
+
+<style>
+    .full-width-container {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+</style>
+

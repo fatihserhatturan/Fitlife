@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewData["Title"] = "TrainerDefaultExercises";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+
+@model IEnumerable<ExerciseViewModel>;
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Durum</th>
+                        <th scope="col">İsim</th>
+                        <th scope="col">Hedef</th>
+                        <th scope="col">Açıklama</th>
+                        <th scope="col">Set</th>
+                        <th scope="col">İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var x in Model)
+                    {
+                        <tr>
+                            @if (x.IsIncluded == true)
+                            {
+                                <td>Ekli</td>
+                            }
+                            @if (x.IsIncluded == false)
+                            {
+                                <td>Ekli Değil</td>
+                            }
+
+                            <td>@x.ExerciseList.Name</td>
+                            <td>@x.ExerciseList.Target</td>
+                            <td>@x.ExerciseList.Description.Substring(0, x.ExerciseList.Description.Substring(0, 100).LastIndexOf(" ")) ... </td>
+                            <td>@x.ExerciseList.Set</td>
+                            <td>
+                                <div style="display: flex; gap: 8px;">
+                                    <form action="/Trainer/ExerciseStatusTrue" method="get">
+                                        <input type="hidden" name="Id" value="@x.ExerciseList.ExerciseListId" />
+                                        <button type="submit" class="btn btn-outline-success">Ekle</button>
+                                    </form>
+
+                                    <form action="/Trainer/ExerciseStatusFalse" method="get">
+                                        <input type="hidden" name="Id" value="@x.ExerciseList.ExerciseListId" />
+                                        <button type="submit" class="btn btn-outline-danger">Çıkar</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

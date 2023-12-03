@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewData["Title"] = "UserProfile";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+@model EntityLayer.Concrete.User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Profil Kartı</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .profile-card {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 1px;
+        }
+
+        .profile-image {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .edit-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="/Images/@Model.PhotoUrl" alt="Profil Resmi" class="profile-image">
+        <h2>Kullanıcı Adı : @Model.Name @Model.Surname</h2>
+        <p>Email: @Model.Mail</p>
+        <p>Telefon: @Model.PhoneNumber</p>
+        <p>Doğum Tarihi: @Model.BirthDate</p>
+        <p>Cinsiyet: @Model.Sex</p>
+        <div class="d-flex justify-content-between">
+            <button class="btn btn-primary btn-sm edit-button" data-toggle="modal" data-target="#editModal">Profili Düzenle</button>
+
+            <form class="form-inline" action="AddImage" controller="User" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    @Html.Label("Profil Resmi")
+                    <input type="file" class="form-control-file" name="PhotoUrl" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm edit-button ml-2">Resmi Güncelle</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Profil Düzenleme Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Profil Düzenleme</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Düzenleme Formu -->
+                    @using (Html.BeginForm("UserProfileInfoUpdate", "User", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(x => x.UserId)
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Surname, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Surname, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Mail, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Mail, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.PhoneNumber, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.PhoneNumber, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.BirthDate, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.BirthDate, new { @class = "form-control", type = "date" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Sex, new { @class = "control-label" })
+                            @Html.DropDownListFor(model => model.Sex, new SelectList(new[] { "Erkek", "Kadın", "Diğer" }), new { @class = "form-control" })
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+

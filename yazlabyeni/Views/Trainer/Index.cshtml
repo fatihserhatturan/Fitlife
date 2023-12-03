@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+
+@model EntityLayer.Concrete.Trainer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Profil Kartı</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .profile-card {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 1px;
+        }
+
+        .profile-image {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .edit-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <img src="/Images/@Model.TrainerPhoto" alt="Profil Resmi" class="profile-image">
+        <h2>Kullanıcı Adı : @Model.Name @Model.Surname</h2>
+        <p>Email: @Model.Mail</p>
+        <p>Telefon: @Model.PhoneNumber</p>
+        <p>Açıklama: @Model.Description</p>
+        <p>Uzmanlık: @Model.Expertise</p>
+
+        <div class="d-flex justify-content-between">
+            <button class="btn btn-primary btn-sm edit-button" data-toggle="modal" data-target="#editModal">Profili Düzenle</button>
+
+            <form class="form-inline" action="@Url.Action("AddImage", "Trainer")" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    @Html.Label("Profil Resmi")
+                    <input type="file" class="form-control-file" name="TrainerPhoto" />
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm edit-button ml-2">Resmi Güncelle</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Profil Düzenleme Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Profil Düzenleme</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Düzenleme Formu -->
+                    @using (Html.BeginForm("TrainerProfileInfoUpdate", "Trainer", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.HiddenFor(x => x.TrainerId)
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Name, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Surname, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Surname, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Mail, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Mail, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.PhoneNumber, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.PhoneNumber, new { @class = "form-control" })
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Description, new { @class = "control-label" })
+                            @Html.TextBoxFor(model => model.Description, new { @class = "form-control"})
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.Expertise, new { @class = "control-label" })
+                            @Html.DropDownListFor(model => model.Expertise, new SelectList(new[] { "Kas Kazanma", "Yağ Yakma", "Fit Olma", "Ödem Atma", "Boy Uzatma", "Genel Spor" }), new { @class = "form-control" })
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap ve jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+

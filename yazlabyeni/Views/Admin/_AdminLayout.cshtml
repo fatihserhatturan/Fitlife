@@ -1,0 +1,83 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Custom styles -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        #sidebar {
+            width: 250px;
+            position: fixed;
+            height: 100%;
+            background: #333;
+            padding-top: 20px;
+        }
+
+            #sidebar ul {
+                padding: 0;
+                list-style: none;
+            }
+
+                #sidebar ul li {
+                    padding: 10px;
+                    border-bottom: 1px solid #555;
+                }
+
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="sidebar">
+        <ul>
+            <a asp-controller="Admin" asp-action="Index">
+            <li><i class="fas fa-home"></i> Ana Sayfa</li></a>
+
+            <a asp-controller="Admin" asp-action="DietList">
+            <li><i class="fas fa-fire"></i> Diyet Menüleri</li></a>
+
+            <a asp-controller="Admin" asp-action="AddDiet">
+            <li><i class="fas fa-plus"></i> Yeni Diyet Ekle</li></a>
+
+            <a asp-controller="Admin" asp-action="ExerciseList">
+            <li><i class="fas fa-dumbbell"></i> Egzersiz Programları</li></a>
+
+            <a asp-controller="Admin" asp-action="AddExercise">
+            <li><i class="fas fa-plus"></i> Yeni Egzersiz Ekle</li></a>
+
+            <a asp-controller="Admin" asp-action="UserList">
+            <li><i class="fas fa-user"></i> Kullanıcı Bilgileri</li></a>
+
+            <a asp-controller="Admin" asp-action="TrainerList">
+            <li><i class="fas fa-fish"></i> Antrenör Bilgileri </li></a>
+
+        </ul>
+    </div>
+
+    <div id="content">
+        @RenderBody()
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

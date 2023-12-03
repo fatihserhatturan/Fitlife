@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "UserList";
+    Layout = "~/Views/Admin/_AdminLayout.cshtml";
+}
+@model IEnumerable<EntityLayer.Concrete.User>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Paneli</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .table-container {
+            margin: 50px auto;
+            max-width: 1000px;
+        }
+
+            .table-container table {
+                width: 100%;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            .table-container th, .table-container td {
+                padding: 15px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            .table-container th {
+                background-color: #007bff;
+                color: #fff;
+            }
+
+            .table-container tbody tr:hover {
+                background-color: rgba(0, 0, 0, 0.075);
+            }
+
+        .btn-toggle {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container table-container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>İsim</th>
+                    <th>Email</th>
+                    <th>Telefon</th>
+                    <th>Cinsiyet</th>
+                    <th>Durum</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var x in Model)
+                {
+
+                    <tr>
+                        <td>@x.UserId</td>
+                        <td>@x.Name @x.Surname</td>
+                        <td>@x.Mail</td>
+                        <td>@x.PhoneNumber</td>
+                        <td>@x.Sex</td>
+                        @if (x.Status == false)
+                        {
+                            <td>
+                                <span class="badge badge-danger">Pasif</span>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <span class="badge badge-success">Aktif</span>
+                            </td>
+                        }
+                        <td>
+                            <form>
+                                <button class="btn btn-toggle" onclick="toggleStatus(event, @x.UserId)">
+                                    <i class="fas fa-power-off"></i> Durum Değiştir
+                                </button>
+                            </form>
+
+                        </td>
+
+
+                    </tr>
+                }
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        async function toggleStatus(event, userId) {
+
+
+            const response = await fetch(`/Admin/ToggleStatus?userId=${userId}`);
+          
+            // Kullanıcının durumunu güncelle
+            const row = event.target.closest('tr');
+            const statusCell = row.querySelector('.badge');
+
+            location.reload();
+        }
+    </script>
+
+</body>
+</html>
